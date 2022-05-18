@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn-div-p {
+    @apply t-a flex items-center bg-[#2D2C2C] rounded-lg px-4 py-2 gap-2 hover:ring-2 outline-none border-none ring-blue-300/20 active:border-solid active:border-blue-400;
+  }
+  .btn-div-pd {
+    @apply t-a flex items-center bg-[#2D2C2C] opacity-50 rounded-lg px-4 py-2 gap-2 outline-none border-none ;
+  }
+
+  .bg-m {
+    @apply bg-gradient-radial from-[#DF4E12] to-[#4B2574] ;
+  }
+  .bg-dc {
+    @apply bg-gradient-radial from-[#C69A2D] to-[#7A4B1C] ;
+  }
+
+  .t-a {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  .s-bg {
+    @apply absolute w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] rounded-full blur-[120px];
+  }
+
+  .button-secondary {
+    @apply py-2 px-4 bg-[#2d2c2c] border-none ring-[1px] ring-[#343434] t-a hover:scale-105 hover:font-semibold active:scale-105 active:ring-[3px] rounded-lg flex items-center gap-2 overflow-clip;
+  }
+  .button-primary {
+    @apply py-2 px-4 bg-[#ffffff] border-none ring-[1px] ring-[#DEDEDE] t-a hover:scale-105 hover:font-semibold active:scale-105 active:ring-[3px] rounded-lg flex items-center gap-2 overflow-clip;
+  }
+  .button-text {
+    @apply py-2 text-[#519DFF] px-4 border-none t-a hover:scale-105 hover:font-semibold active:scale-105 rounded-lg flex items-center gap-2 overflow-clip;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+* {
+  font-family: 'Lexend', sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

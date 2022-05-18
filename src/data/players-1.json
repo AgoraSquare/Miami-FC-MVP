@@ -1,0 +1,442 @@
+[
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Bah-WEB.png?w=1024",
+    "id": 2,
+    "first_name": "Othello",
+    "last_name": "Bah",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":0
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Antonelli-WEB.png?w=1024",
+    "id": 3,
+    "first_name": "Luca",
+    "last_name": "Antonelli",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":1
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Chapman-Page-WEB.png?w=1024",
+    "id": 4,
+    "first_name": "Callum",
+    "last_name": "Chapman-Page",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":2
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Craig-WEB.png?w=1024",
+    "id": 5,
+    "first_name": "Paco",
+    "last_name": "Craig",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":3
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Stanley-WEB.png?w=1024",
+    "id": 12,
+    "first_name": "Aedan",
+    "last_name": "Stanley",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":4
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/McFarlane-WEB.png?w=1024",
+    "id": 17,
+    "first_name": "Sean",
+    "last_name": "McFarlane",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":5
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Ofeimu-WEB.png?w=1024",
+    "id": 22,
+    "first_name": "Benjamin",
+    "last_name": "Ofeimu",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":6
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Segbers-WEB.png?w=1024",
+    "id": 96,
+    "first_name": "Mark",
+    "last_name": "Segbers",
+    "team": 1,
+    "position": "Defenders",
+    "team_name": "Miami FC",
+    "voteItemId":7
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Perez-WEB.png?w=1024",
+    "id": 7,
+    "first_name": "Joshua",
+    "last_name": "Pérez",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":8
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Murphy-WEB.png?w=1024",
+    "id": 9,
+    "first_name": "Kyle",
+    "last_name": "Murphy",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":9
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Ballard-WEB.png?w=1024",
+    "id": 11,
+    "first_name": "Richard",
+    "last_name": "Ballard",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":10
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Walker-WEB.png?w=1024",
+    "id": 13,
+    "first_name": "Lamar",
+    "last_name": "Walker",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":11
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Sorto-WEB.png?w=1024",
+    "id": 14,
+    "first_name": "Christian",
+    "last_name": "Sorto",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":12
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Reid-WEB.png?w=1024",
+    "id": 30,
+    "first_name": "Adonijah",
+    "last_name": "Reid",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":13
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Parkes-WEB.png?w=1024",
+    "id": 27,
+    "first_name": "Romeo",
+    "last_name": "Parkes",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":14
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Da-Silva-WEB.png?w=1024",
+    "id": 98,
+    "first_name": "Pierre",
+    "last_name": "Da Silva",
+    "team": 1,
+    "position": "Forwards",
+    "team_name": "Miami FC",
+    "voteItemId":15
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/McGuire-WEB.png?w=1024",
+    "id": 1,
+    "first_name": "Jake",
+    "last_name": "McGuire",
+    "team": 1,
+    "position": "Goalkeepers",
+    "team_name": "Miami FC",
+    "voteItemId":16
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/09/Sparrow-WEB.png?w=1024",
+    "id": 24,
+    "first_name": "Connor",
+    "last_name": "Sparrow",
+    "team": 1,
+    "position": "Goalkeepers",
+    "team_name": "Miami FC",
+    "voteItemId":17
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/09/Abrams-WEB.png?w=1024",
+    "id": 31,
+    "first_name": "Noah",
+    "last_name": "Abrams",
+    "team": 1,
+    "position": "Goalkeepers",
+    "team_name": "Miami FC",
+    "voteItemId":18
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/WhatsApp-Image-2022-03-24-at-12.24.09-PM.jpeg?w=1024",
+    "id": 8,
+    "first_name": "Dennis",
+    "last_name": "Dowouna",
+    "team": 1,
+    "position": "Midfielders",
+    "team_name": "Miami FC",
+    "voteItemId":19
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Valot-WEB.png?w=1024",
+    "id": 10,
+    "first_name": "Florian",
+    "last_name": "Valot",
+    "team": 1,
+    "position": "Midfielders",
+    "team_name": "Miami FC",
+    "voteItemId":20
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Palacios-WEB.png?w=1024",
+    "id": 18,
+    "first_name": "Junior",
+    "last_name": "Palacios",
+    "team": 1,
+    "position": "Midfielders",
+    "team_name": "Miami FC",
+    "voteItemId":21
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Akinyode-WEB.png?w=1024",
+    "id": 21,
+    "first_name": "Bolu",
+    "last_name": "Akinyode",
+    "team": 1,
+    "position": "Midfielders",
+    "team_name": "Miami FC",
+    "voteItemId":22
+  },
+  {
+    "img_link": "https://www.miamifc.com/wp-content/uploads/sites/4/2021/10/Williams-WEB.png?w=1024",
+    "id": 80,
+    "first_name": "Devon",
+    "last_name": "'Speedy'Williams",
+    "team": 1,
+    "position": "Midfielders",
+    "team_name": "Miami FC",
+    "voteItemId":23
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/05/2022_DCFCM_Announcement_V10_Ouimette-1.jpg?w=1024",
+    "id": 22,
+    "first_name": "KARL",
+    "last_name": "OUIMETTE",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":24
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Wynne_Declan_3324.png?w=1024",
+    "id": 20,
+    "first_name": "DEKLAN",
+    "last_name": "WYNNE",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":25
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Williams_Rhys_3406.png?w=1024",
+    "id": 2,
+    "first_name": "RHYS",
+    "last_name": "WILLIAMS",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":26
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Lewis_Matt2911.png?w=1024",
+    "id": 15,
+    "first_name": "MATT",
+    "last_name": "LEWIS",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":27
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Amoo-Mensah_Devon_3481.png?w=1024",
+    "id": 30,
+    "first_name": "DEVON",
+    "last_name": "AMOO-MENSAH",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":28
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Carroll_Steve_288.png?w=1024",
+    "id": 5,
+    "first_name": "STEPHEN",
+    "last_name": "CARROLL",
+    "team": 2,
+    "position": "Defender",
+    "team_name": "Detroit City FC",
+    "voteItemId":29
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/04/2022_DCFCM_Announcement_MackyDiop.jpg?w=1024",
+    "id": 77,
+    "first_name": "AMADOU",
+    "last_name": "MACKY DIOP",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":30
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/03/2022_DCFCM_Announcement_V10_Francis.png?w=1024",
+    "id": 9,
+    "first_name": "FRANCIS",
+    "last_name": "ATUAHENE",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":31
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/03/Forbes_Billy_3163-1.png?w=1024",
+    "id": 7,
+    "first_name": "BILLY",
+    "last_name": "FORBES",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":32
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Happenot_Antoine_3099.png?w=1024",
+    "id": 29,
+    "first_name": "ANTOINE",
+    "last_name": "HOPPENOT",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":33
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Rutz_Connor_2957-copy.png?w=1024",
+    "id": 11,
+    "first_name": "CONNOR",
+    "last_name": "RUTZ",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":34
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Botello-Faz_Pato_3196.png?w=1024",
+    "id": 19,
+    "first_name": "PATO",
+    "last_name": "BOTELLO FAZ",
+    "team": 2,
+    "position": "Forward",
+    "team_name": "Detroit City FC",
+    "voteItemId":35
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/03/2022_DCFCM_Announcement_V10_Shellow.jpg?w=1024",
+    "id": 13,
+    "first_name": "RYAN",
+    "last_name": "SHELLOW",
+    "team": 2,
+    "position": "Goalkeeper",
+    "team_name": "Detroit City FC",
+    "voteItemId":36
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Steinwascher_Nate_3041.png?w=1024",
+    "id": 1,
+    "first_name": "NATE",
+    "last_name": "STEINWASCHER",
+    "team": 2,
+    "position": "Goalkeeper",
+    "team_name": "Detroit City FC",
+    "voteItemId":37
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/04/2022_DCFCM_Announcement_V10_Beni-1.jpg?w=1024",
+    "id": 17,
+    "first_name": "BENEDEK",
+    "last_name": "TANYI",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":38
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Tanyi_Bosh_3007-copy.png?w=1024",
+    "id": 47,
+    "first_name": "BARNABAS",
+    "last_name": "‘BOSH’ TANYI",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":39
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Bryant_Michael_313.png?w=1024",
+    "id": 12,
+    "first_name": "MICHAEL",
+    "last_name": "BRYANT",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":40
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Rodriquez_Maxi_3244.png?w=1024",
+    "id": 21,
+    "first_name": "MAXI",
+    "last_name": "RODRIGUEZ",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":41
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Dunwell_Brad_343.png?w=1024",
+    "id": 6,
+    "first_name": "BRAD",
+    "last_name": "DUNWELL",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":42
+  },
+  {
+    "img_link": "https://www.detcityfc.com/wp-content/uploads/sites/56/2022/02/Diop_Laye_3514.png?w=1024",
+    "id": 8,
+    "first_name": "ABDOULAYE",
+    "last_name": "DIOP",
+    "team": 2,
+    "position": "Midfielder",
+    "team_name": "Detroit City FC",
+    "voteItemId":43
+  }
+]
