@@ -115,11 +115,11 @@ const Home: NextPage = () => {
 							{error && <p className='text-red-500 text-xs w-full max-w-[20ch]'>{error.message}</p>}
 						</div>}
 						{
-							clientLoaded && data && activeChain?.id === 80001 && <WalletCheckDialog open={openD} setOpen={setOpenD} />
+							clientLoaded && data && activeChain?.id === chain.polygon.id && <WalletCheckDialog open={openD} setOpen={setOpenD} />
 						}
 						{
-							activeChain?.id !== 80001 && data &&
-							<button onClick={() => onNetworkSwitch(chain.polygonMumbai.id)} className='btn-div-p max-w-[50%] self-center'>
+							activeChain?.id !== chain.polygon.id && data &&
+							<button onClick={() => onNetworkSwitch(chain.polygon.id)} className='btn-div-p max-w-[50%] self-center'>
 								<p className='text-white text-xs'>{isLoading ? 'Switching..' : 'Switch to Mumbai'}</p>
 							</button>
 						}

@@ -18,7 +18,7 @@ const Layout = ({ children }: { children: any }) => {
 
     useEffect(() => {
         if (activeChain && activeConnector?.id === "walletConnect") {
-            if (activeChain!.id !== 80001) {
+            if (activeChain!.id !== chain.polygon.id) {
                 setWrongChain(true);
                 dispatch(
                     sWC(true)
@@ -32,7 +32,7 @@ const Layout = ({ children }: { children: any }) => {
         }
 
         if (activeChain) {
-            if (activeChain!.id !== 80001) {
+            if (activeChain!.id !== chain.polygon.id) {
                 setWrongChain(true);
                 dispatch(
                     sWC(true)
@@ -54,7 +54,7 @@ const Layout = ({ children }: { children: any }) => {
             if (win.ethereum && activeConnector?.id === "injected") {
                 const provider = new ethers.providers.Web3Provider(win.ethereum);
                 const network = await provider.getNetwork();
-                if (network.chainId !== 80001) {
+                if (network.chainId !== chain.polygon.id) {
                     setWrongChain(true);
                     dispatch(
                         sWC(true)
@@ -66,7 +66,7 @@ const Layout = ({ children }: { children: any }) => {
                     )
                 }
             } else if ( activeConnector?.id === "walletConnect") {
-                if (activeChain?.id !== 80001) {
+                if (activeChain?.id !== chain.polygon.id) {
                     setWrongChain(true);
                     dispatch(
                         sWC(true)
@@ -87,7 +87,7 @@ const Layout = ({ children }: { children: any }) => {
                 const provider = new ethers.providers.Web3Provider(win.ethereum, "any");
                 provider.on("network", (newNetwork: any, oldNetwork: any) => {
                     
-                    if (newNetwork.chainId !== 80001) {
+                    if (newNetwork.chainId !== chain.polygon.id) {
                         setWrongChain(true);
                         dispatch(
                             sWC(true)
@@ -108,7 +108,7 @@ const Layout = ({ children }: { children: any }) => {
 
     const handleSwitch = async () => {
         setSwitching(true);
-        switchNetwork?.(chain.polygonMumbai.id);
+        switchNetwork?.(chain.polygon.id);
     }
 
 
