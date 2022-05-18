@@ -22,12 +22,12 @@ const VoteDialog = ({ open, setOpen, data, refetch }: { open: boolean, setOpen: 
 
     const { isError, isLoading, writeAsync, data: wData } = useContractWrite(
         {
-            addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
             contractInterface: Poll.abi,
         },
         'votePoll',
         {
-            args: ['29102676481673041902632991033461445430619272659676223336789171408008386403022', data.voteItemId],
+            args: ['80084422859880547211683076133703299733277748156566366325829078699459944778998', data.voteItemId],
             onError: (e) => {
                 setLoading(false);
             },
@@ -91,7 +91,7 @@ const VoteDialog = ({ open, setOpen, data, refetch }: { open: boolean, setOpen: 
                             </div>
 
                             {true && <div className='flex flex-col w-full items-center'>
-                                <p className='text-xs text-white/60'>you are about to vote for</p>
+                                <p className='text-xs text-white/60'>vote wisely, you can not change your vote</p>
                                 <p className='text-base text-white'>{data.first_name} {data.last_name} <span className='text-sm text-white/60'>• {data.team === 1 ? "Miami FC" : "DC FC"}</span></p>
                                 <button onClick={() => handleVote()} className='button-primary flex items-center mt-4'>
                                     <VoteIconM />

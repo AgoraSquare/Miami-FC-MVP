@@ -49,20 +49,20 @@ const VotePage = () => {
         getPollFinished.refetch();
         // TODO: get the winner and set winner Object to pData 
         // TODO: set winnerDeclared to true
-        if(pollFinished){
+        
+            
+        //getPollWinner.refetch();
 
-            getPollWinner.refetch();
-
-        }
+        
         
         
         if (hasVoted) {
             // ToDO: get voted item id
             // TODO: add voted item as obj from players-1.json to pdata
-            getUserVote.refetch();
+            //getUserVote.refetch();
             
         }
-
+    
     }, [])
 
     useEffect(() => {
@@ -74,12 +74,12 @@ const VotePage = () => {
     
     const getPollWinner = useContractRead(
         {
-            addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
             contractInterface: Poll.abi,
         },
         "getPollWinner",
         {
-            args: [BigNumber.from('29102676481673041902632991033461445430619272659676223336789171408008386403022')],
+            args: [BigNumber.from('80084422859880547211683076133703299733277748156566366325829078699459944778998')],
             overrides: {
                 from: uData?.address,
             },
@@ -98,12 +98,12 @@ const VotePage = () => {
     
     const getUserVote = useContractRead(
         {
-            addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
             contractInterface: Poll.abi,
         },
         "getUserVote",
         {
-            args: [BigNumber.from('29102676481673041902632991033461445430619272659676223336789171408008386403022')],
+            args: [BigNumber.from('80084422859880547211683076133703299733277748156566366325829078699459944778998')],
             overrides: {
                 from: uData?.address,
             },
@@ -120,12 +120,12 @@ const VotePage = () => {
     
     const getPollFinished = useContractRead(
         {
-            addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
             contractInterface: Poll.abi,
         },
         "getPollFinished",
         {
-            args: [BigNumber.from('29102676481673041902632991033461445430619272659676223336789171408008386403022')],
+            args: [BigNumber.from('80084422859880547211683076133703299733277748156566366325829078699459944778998')],
             overrides: {
                 from: uData?.address,
             },
@@ -135,8 +135,10 @@ const VotePage = () => {
 
                 if(data){
                     setPollFinished(true);
+                    getPollWinner.refetch();
                 }else{
                     setPollFinished(false);
+                    checkVoted.refetch();
                 }
                 
             }
@@ -147,12 +149,12 @@ const VotePage = () => {
 
     const checkVoted = useContractRead(
         {
-            addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
             contractInterface: Poll.abi,
         },
         'hasUserVoted',
         {
-            args: [BigNumber.from('29102676481673041902632991033461445430619272659676223336789171408008386403022')],
+            args: [BigNumber.from('80084422859880547211683076133703299733277748156566366325829078699459944778998')],
             overrides: {
                 from: uData?.address,
             },
@@ -167,6 +169,7 @@ const VotePage = () => {
                 } else {
                     setHasVoted(false);
                 }
+            
             },
             onError: (error) => {
                 console.log("error", error);
@@ -231,12 +234,14 @@ const VotePage = () => {
     }
 
     if (winnerDeclared) {
+        console.log("winnerDeclared");
         return (
             <WinnerScreen data={pData} />
         )
     }
 
     if (hasVoted && !pollFinished) {
+        console.log("hasVoted");
         return (
             <VotedScreen data={pData} />
         )

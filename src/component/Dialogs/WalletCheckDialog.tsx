@@ -18,12 +18,12 @@ const WalletCheckDialog = ({ open, setOpen }: { open: boolean, setOpen: Dispatch
     const [loading, setLoading] = useState(false);
     const { disconnectAsync, reset } = useDisconnect();
     const {data: rData, isError: rError, error:e, isLoading: rLoading} = useContractRead({
-        addressOrName: '0xfF5023193127DB2e12169486B0582c6741c27783',
+        addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
         contractInterface: Poll.abi,
         },
         'hasNFT',
         {
-            args: [BigNumber.from('29102676481673041902632991033461445430619272659676223336789171408008386403022')],
+            args: [BigNumber.from('80084422859880547211683076133703299733277748156566366325829078699459944778998')],
             overrides: {
                 from: uData?.address,
             },

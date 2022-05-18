@@ -19,7 +19,7 @@ const TimerSmall = () => {
 	},[])
     return (
         <div className="flex flex-col bg-[#202020]/20 p-2 w-max rounded-lg">
-            <p className="text-xs text-[#bbbbbb] font-light">game ends in</p>
+            <p className="text-xs text-[#bbbbbb] font-light">voting ends in</p>
             <h3 className="text-xl text-white tracking-widest">{dateString}</h3>
         </div>
     );
