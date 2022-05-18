@@ -74,7 +74,7 @@ const VotePage = () => {
     
     const getPollWinner = useContractRead(
         {
-            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+            addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
             contractInterface: Poll.abi,
         },
         "getPollWinner",
@@ -98,7 +98,7 @@ const VotePage = () => {
     
     const getUserVote = useContractRead(
         {
-            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+            addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
             contractInterface: Poll.abi,
         },
         "getUserVote",
@@ -120,7 +120,7 @@ const VotePage = () => {
     
     const getPollFinished = useContractRead(
         {
-            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+            addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
             contractInterface: Poll.abi,
         },
         "getPollFinished",
@@ -149,7 +149,7 @@ const VotePage = () => {
 
     const checkVoted = useContractRead(
         {
-            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+            addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
             contractInterface: Poll.abi,
         },
         'hasUserVoted',

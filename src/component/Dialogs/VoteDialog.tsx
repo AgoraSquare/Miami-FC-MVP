@@ -22,7 +22,7 @@ const VoteDialog = ({ open, setOpen, data, refetch }: { open: boolean, setOpen: 
 
     const { isError, isLoading, writeAsync, data: wData } = useContractWrite(
         {
-            addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+            addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
             contractInterface: Poll.abi,
         },
         'votePoll',

@@ -18,8 +18,8 @@ const connectors = () => {
 	return [
 		new WalletConnectConnector({
 			options: {
-				chainId: chain.polygonMumbai.id,
-				rpc: { 80001 : "https://polygon-mumbai.g.alchemy.com/v2/IdqlTHjOhYElQ5wGT3B1DLmlOeQCwhcq" }
+				chainId: chain.polygon.id,
+				rpc: { 137 : "https://polygon-mainnet.g.alchemy.com/v2/c9KQd2oIeB0PrvlAuvo2yqP7yOOrpxRy" }
 			},
 		}),
 		// new MetaMaskConnector({
@@ -29,7 +29,7 @@ const connectors = () => {
 		//   }
 		// }),
 		new InjectedConnector({
-			chains: [chain.polygonMumbai]
+			chains: [chain.polygon]
 		})
 	]
 }
@@ -37,7 +37,7 @@ const connectors = () => {
 const wagmiClient = createClient({
 	autoConnect: true,
 	provider(config) {
-		return new providers.AlchemyProvider(config.chainId, 'ksqleRX25aRSLQ9uawfAwVTlQ8gKLULj');
+		return new providers.AlchemyProvider(config.chainId, 'c9KQd2oIeB0PrvlAuvo2yqP7yOOrpxRy');
 	},
 	connectors
 })

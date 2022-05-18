@@ -18,7 +18,7 @@ const WalletCheckDialog = ({ open, setOpen }: { open: boolean, setOpen: Dispatch
     const [loading, setLoading] = useState(false);
     const { disconnectAsync, reset } = useDisconnect();
     const {data: rData, isError: rError, error:e, isLoading: rLoading} = useContractRead({
-        addressOrName: '0x8B91B197B9cAc9B0A52A2a8941dcbB493e466B47',
+        addressOrName: '0x30eBDAa53eEd815bbA04B523CC78e5AA28826cE8',
         contractInterface: Poll.abi,
         },
         'hasNFT',
