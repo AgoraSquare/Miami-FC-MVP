@@ -77,8 +77,8 @@ const WalletCheckDialog = ({ open, setOpen }: { open: boolean, setOpen: Dispatch
                     {/* Mint Post View */}
                     {<>
                         <Dialog.Description as='div' className="flex flex-col h-full w-full text-center justify-between py-2 flex-1 gap-6 px-6 overflow-y-auto  ">
-                            <div className='w-[300px] self-center border border-white/40 rounded-lg border-dashed aspect-[1/1] flex'>
-                                <img className='w-full h-full object-scale-down' src="/nft_placeholder.svg" alt="" />
+                            <div className='w-[300px] self-center rounded-lg border-dashed aspect-[1/1] flex overflow-hidden'>
+                                <img className='w-full h-full object-cover' src="/NFT.jpg" alt="" />
                             </div>
 
                             {rLoading && <div className='flex flex-col w-full items-center gap-2'>
@@ -97,7 +97,7 @@ const WalletCheckDialog = ({ open, setOpen }: { open: boolean, setOpen: Dispatch
                                 <button onClick={() => handleDisconnect()} className='btn-div-p'>
                                     <p className='text-xs text-white'>{loading ? 'disconnecting...': 'SignIn with another Wallet'}</p>
                                 </button>
-                                <a href='#' className='text-xs text-[#519DFF]'>Get the NFT ↗</a>
+                                {/* <a href='#' className='text-xs text-[#519DFF]'>Get the NFT ↗</a> */}
                             </div>}
 
                             <button ref={buttonRef} className='hidden absolute button-s font-semibold tracking-wide px-6 py-3  text-xs bg-[#212427] rounded-lg outline-none'>Connect Wallet</button>
